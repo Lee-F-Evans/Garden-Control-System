@@ -5585,6 +5585,28 @@
 			)
 		)
 	)
+	(global_label "MCU_I_SENSE0"
+		(shape input)
+		(at 207.01 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09252162-e228-4c50-b9e9-efa031812dee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.8441 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 83.82 163.83 180)
@@ -5827,6 +5849,50 @@
 			)
 		)
 	)
+	(global_label "MCU_I_SENSE2"
+		(shape input)
+		(at 207.01 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "591fe0ce-4740-4dde-8bf4-82cc6596504d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.8441 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1_PWM"
+		(shape input)
+		(at 207.01 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b755a34-6fda-4da8-b845-7ee4e08cd93a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MII_RX_RD2"
 		(shape input)
 		(at 162.56 130.81 0)
@@ -6047,6 +6113,28 @@
 			)
 		)
 	)
+	(global_label "M0_PWM"
+		(shape input)
+		(at 207.01 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbb6fccf-8744-4b0a-a465-641ec197eb3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HSE OUT"
 		(shape input)
 		(at 86.36 105.41 180)
@@ -6104,6 +6192,72 @@
 		(uuid "e3a55d88-fb24-4d37-826a-510dbd569369")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.459 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_I_SENSE3"
+		(shape input)
+		(at 207.01 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb8a16df-f763-4ab7-997d-1c6554914ff0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.8441 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M2_PWM"
+		(shape input)
+		(at 207.01 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee52cb37-fea6-41c1-98c1-07f68b711861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_I_SENSE1"
+		(shape input)
+		(at 207.01 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efd36a2c-7466-4b83-b5f5-254d4d7a84da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.8441 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

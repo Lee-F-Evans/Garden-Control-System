@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'INA4180A2IPWR'
+CLASS = IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE = MANUFACTURER_PART_NUMBER | COPYRIGHT | MFR_NAME | JEDEC_TYPE | PART_NUMBER ;
+{========================================================================================}
+ 'SMD' | 'INA4180A2IPWR'(!) = 'INA4180A2IPWR' | 'Copyright (C) 2024 Ultra Librarian. All rights reserved.' | 'Texas Instruments' | 'PW14_TEX' | 'INA4180A2IPWR'
+
+END_PART
+
+END.
