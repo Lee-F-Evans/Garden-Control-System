@@ -1,106 +1,209 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid be495e14-3da3-4129-8396-1871cb6cba29)
-
-  (paper "A4")
-
-  (title_block
-    (title "Garden Control System")
-    (date "2024-04-06")
-    (rev "1")
-    (company "Lee Evans")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 745.49 0) (size 326.39 195.58) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 204a168b-bbb9-470c-896a-2af26f197140)
-    (property "Sheetname" "Connectors" (at 745.49 -0.7116 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 745.49 196.1646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Garden Control System"
-        (path "/be495e14-3da3-4129-8396-1871cb6cba29" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 8.89 226.06) (size 312.42 194.31) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2e2e63ab-c4f1-440d-ac62-fc929ffe2afa)
-    (property "Sheetname" "Ethernet" (at 8.89 225.3484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Ethernet.kicad_sch" (at 8.89 420.9546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Garden Control System"
-        (path "/be495e14-3da3-4129-8396-1871cb6cba29" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 330.2 224.79) (size 393.7 195.58) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 55fe0748-2c23-42b7-878f-a313d609d0dd)
-    (property "Sheetname" "Power" (at 330.2 224.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 330.2 420.9546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Garden Control System"
-        (path "/be495e14-3da3-4129-8396-1871cb6cba29" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 330.2 -3.81) (size 391.16 201.93) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6a7b39f0-e3c6-487a-9e4c-35de14375680)
-    (property "Sheetname" "MCU" (at 330.2 -4.5216 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "MCU.kicad_sch" (at 330.2 198.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Garden Control System"
-        (path "/be495e14-3da3-4129-8396-1871cb6cba29" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 746.76 224.79) (size 325.12 198.12) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9f2dbd4f-9250-47a2-9054-c36b37ba7178)
-    (property "Sheetname" "Sensors and HSDs" (at 746.76 224.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Sensors and HSDs.kicad_sch" (at 746.76 423.4946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Garden Control System"
-        (path "/be495e14-3da3-4129-8396-1871cb6cba29" (page "5"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "be495e14-3da3-4129-8396-1871cb6cba29")
+	(paper "A4")
+	(title_block
+		(title "Garden Control System")
+		(date "2024-04-06")
+		(rev "1")
+		(company "Lee Evans")
+	)
+	(lib_symbols)
+	(sheet
+		(at 745.49 0)
+		(size 326.39 195.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "204a168b-bbb9-470c-896a-2af26f197140")
+		(property "Sheetname" "Connectors"
+			(at 745.49 -0.7116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 745.49 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 8.89 226.06)
+		(size 312.42 194.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e2e63ab-c4f1-440d-ac62-fc929ffe2afa")
+		(property "Sheetname" "Ethernet"
+			(at 8.89 225.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 8.89 420.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 224.79)
+		(size 393.7 195.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55fe0748-2c23-42b7-878f-a313d609d0dd")
+		(property "Sheetname" "Power"
+			(at 330.2 224.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 330.2 420.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 -3.81)
+		(size 391.16 201.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a7b39f0-e3c6-487a-9e4c-35de14375680")
+		(property "Sheetname" "MCU"
+			(at 330.2 -4.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 330.2 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 746.76 224.79)
+		(size 325.12 198.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f2dbd4f-9250-47a2-9054-c36b37ba7178")
+		(property "Sheetname" "Sensors and HSDs"
+			(at 746.76 224.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors and HSDs.kicad_sch"
+			(at 746.76 423.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
