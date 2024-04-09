@@ -11,6 +11,393 @@
 		(company "Lee Evans")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 229.87 93.98)
+		(end 265.43 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid d8322c88-0167-4e18-b618-41e2bb3c47a3)
+	)
+	(text_box "3V3 LDO"
+		(exclude_from_sim no)
+		(at 203.2 31.75 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "0c045749-9d89-427d-a0c9-32d544cfa37f")
+	)
+	(text_box "3V5 BUCK"
+		(exclude_from_sim no)
+		(at 157.48 31.75 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "34ce7121-2451-4c55-be2b-048bf3883ab8")
+	)
+	(text_box "TEMPERATURE x3"
+		(exclude_from_sim no)
+		(at 158.75 129.54 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 0 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "34fdc99e-c336-401c-8032-a228012f0166")
+	)
+	(text_box "RESET"
+		(exclude_from_sim no)
+		(at 52.07 129.54 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 0 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "5747b7f8-49be-49be-9b03-1caff83ea7ab")
+	)
+	(text_box "TFT LCD"
+		(exclude_from_sim no)
+		(at 105.41 81.28 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 221 133 0 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "61980723-fa0b-4574-968e-4fca4daf14a4")
+	)
+	(text_box "ROTARY ENCODER"
+		(exclude_from_sim no)
+		(at 52.07 111.76 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 0 194 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "70b73abe-b667-427c-95a0-d8b5d6eaf466")
+	)
+	(text_box "~5V BUCK"
+		(exclude_from_sim no)
+		(at 110.49 31.75 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "9b6924cc-4b76-41fe-9342-ed9abec7bf58")
+	)
+	(text_box "ETHERNET"
+		(exclude_from_sim no)
+		(at 82.55 153.67 0)
+		(size 19.05 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 0.76)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "a4fcb4a5-8519-46fe-b722-32532cda6863")
+	)
+	(text_box "LSDx3"
+		(exclude_from_sim no)
+		(at 158.75 93.98 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 0 0 0.56)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "a66673ad-78ab-47ba-82bf-2175022ef9c5")
+	)
+	(text_box "VBAT\n24VMAX"
+		(exclude_from_sim no)
+		(at 66.04 31.75 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c616fc4d-26c8-409e-b923-172c10a14ad5")
+	)
+	(text_box "MICRO"
+		(exclude_from_sim no)
+		(at 100.33 113.03 0)
+		(size 35.56 24.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 0.61)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "c70cf968-08a9-40cf-9a74-1a3ea2ada8b9")
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 107.95 153.67 0)
+		(size 19.05 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 0.76)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "da2f3778-8390-4d04-b401-6cf43a799305")
+	)
+	(text_box "JTAG DEBUG"
+		(exclude_from_sim no)
+		(at 133.35 153.67 0)
+		(size 19.05 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 0.76)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "df95bf34-afc3-4623-baa8-7350d3245d1c")
+	)
+	(text_box "CURRENT SENSE x4"
+		(exclude_from_sim no)
+		(at 158.75 111.76 0)
+		(size 24.13 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 194 194 0 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "f81ae61c-083e-4d9f-a470-eab923cbb2ff")
+	)
+	(text "Legend"
+		(exclude_from_sim no)
+		(at 240.03 92.456 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "01242967-3fa3-40c0-a8b6-a900b91be94e")
+	)
+	(text "PUMPS/FANS"
+		(exclude_from_sim no)
+		(at 100.584 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0adef0ae-baba-433a-a6de-5b81924befba")
+	)
+	(text "GATE DRIVERS"
+		(exclude_from_sim no)
+		(at 144.78 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "131a8d0f-3a12-48af-b24e-550b8b731abd")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 232.156 108.204 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1eb9b777-c16d-4f0e-9bce-ce4fb0ad5004")
+	)
+	(text "Analog Input"
+		(exclude_from_sim no)
+		(at 232.156 104.902 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 194 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2cb198f9-acb2-4f30-b731-2637e1026aea")
+	)
+	(text "MICRO, PHY, "
+		(exclude_from_sim no)
+		(at 238.252 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "571b190a-b83d-48c9-86eb-c5354a2945bb")
+	)
+	(text "Display"
+		(exclude_from_sim no)
+		(at 232.156 111.76 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 221 133 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6dd2ae05-cdd9-4623-b4c8-574a567f0683")
+	)
+	(text "DI/O"
+		(exclude_from_sim no)
+		(at 232.156 101.6 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "714d3822-9a73-4655-bad4-f93a84cd4463")
+	)
+	(text "DISPLAY, SENSORS?"
+		(exclude_from_sim no)
+		(at 193.294 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87f733ca-b4dd-4b96-ba0c-944a26a4f946")
+	)
+	(text "Communication"
+		(exclude_from_sim no)
+		(at 232.156 97.79 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 0 194 194 1)
+			)
+			(justify left)
+		)
+		(uuid "a5d2461f-bae5-4ba1-882b-565ee8e4c6ad")
+	)
 	(sheet
 		(at 745.49 0)
 		(size 326.39 195.58)
@@ -175,7 +562,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9f2dbd4f-9250-47a2-9054-c36b37ba7178")
-		(property "Sheetname" "Sensors and HSDs"
+		(property "Sheetname" "LSD and Current Sense"
 			(at 746.76 224.0784 0)
 			(effects
 				(font

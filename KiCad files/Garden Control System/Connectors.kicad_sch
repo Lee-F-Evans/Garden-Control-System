@@ -1981,13 +1981,13 @@
 		)
 	)
 	(junction
-		(at 259.08 113.03)
+		(at 233.68 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23e26df6-23ae-4b80-8e6f-64ce20b02243")
+		(uuid "225a3058-bd8b-4375-aa97-67311f517ea3")
 	)
 	(junction
-		(at 267.97 48.26)
+		(at 242.57 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4836e9a7-d57a-4cd9-852f-fd607cfa2813")
@@ -2005,6 +2005,12 @@
 		(uuid "902e3711-15c9-4cfc-9ac5-2c6b3a737563")
 	)
 	(junction
+		(at 233.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6ac480-96b4-4119-8c69-f24dd24ea638")
+	)
+	(junction
 		(at 33.02 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2017,16 +2023,10 @@
 		(uuid "a7aeca43-743b-4a47-9fb7-60da2f246d30")
 	)
 	(junction
-		(at 259.08 88.9)
+		(at 233.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac7496b9-bf9e-4a29-a2ca-0a71ebb04b80")
-	)
-	(junction
-		(at 259.08 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad6cb480-e55e-44ac-a92d-85414d31ace9")
+		(uuid "dd1e5b20-9880-4984-a77a-5d04c872410f")
 	)
 	(junction
 		(at 132.08 52.07)
@@ -2072,16 +2072,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 91.44) (xy 269.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d90074-d356-4b5c-a2fc-e6050ab93b69")
-	)
-	(wire
-		(pts
 			(xy 33.02 52.07) (xy 34.29 52.07)
 		)
 		(stroke
@@ -2092,7 +2082,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 110.49) (xy 259.08 110.49)
+			(xy 233.68 88.9) (xy 233.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bb74cf-0738-4f7c-ad43-591f976d8087")
+	)
+	(wire
+		(pts
+			(xy 231.14 106.68) (xy 233.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 40.64) (xy 267.97 43.18)
+			(xy 242.57 36.83) (xy 242.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 88.9) (xy 259.08 88.9)
+			(xy 231.14 90.17) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2142,17 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 88.9) (xy 269.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33197a80-b24d-444c-83ff-48c26b59dbd6")
-	)
-	(wire
-		(pts
-			(xy 259.08 113.03) (xy 259.08 110.49)
+			(xy 233.68 109.22) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2162,17 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 45.72) (xy 267.97 48.26)
+			(xy 233.68 107.95) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc78374-baf9-41ea-ac82-eac04e80df6b")
+	)
+	(wire
+		(pts
+			(xy 242.57 41.91) (xy 242.57 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 113.03) (xy 259.08 113.03)
+			(xy 231.14 109.22) (xy 233.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 45.72) (xy 267.97 45.72)
+			(xy 229.87 41.91) (xy 242.57 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 48.26) (xy 267.97 48.26)
+			(xy 229.87 44.45) (xy 242.57 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 129.54) (xy 264.16 129.54)
+			(xy 231.14 125.73) (xy 238.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 88.9) (xy 259.08 86.36)
+			(xy 233.68 90.17) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 259.08 132.08)
+			(xy 231.14 128.27) (xy 233.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2352,17 +2352,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 134.62) (xy 269.24 138.43)
+			(xy 233.68 107.95) (xy 238.76 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a7bae16-2e2f-4e79-b591-1cffe22e975a")
+		(uuid "9c09a93a-19ef-4616-b435-d8fccdfcbf2b")
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 264.16 83.82)
+			(xy 231.14 85.09) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 107.95) (xy 264.16 107.95)
+			(xy 231.14 104.14) (xy 238.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2422,17 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 134.62) (xy 269.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6d4f1a-cd6a-47ab-b1fd-7475e7f3771f")
-	)
-	(wire
-		(pts
-			(xy 256.54 86.36) (xy 259.08 86.36)
+			(xy 231.14 87.63) (xy 233.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2462,17 +2452,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 115.57) (xy 269.24 113.03)
+			(xy 233.68 88.9) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0dfa1e8-a170-4aaf-a626-8d79b2e61f53")
+		(uuid "c3a4596c-3098-4907-9b82-69cb78c44044")
 	)
 	(wire
 		(pts
-			(xy 256.54 134.62) (xy 259.08 134.62)
+			(xy 231.14 130.81) (xy 233.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 48.26) (xy 267.97 50.8)
+			(xy 242.57 44.45) (xy 242.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2502,13 +2492,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 113.03) (xy 269.24 113.03)
+			(xy 233.68 129.54) (xy 233.68 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb2581ef-1a66-49d9-86f7-13f98e4f215c")
+		(uuid "c9cf7ae4-3215-4ef1-9940-2133cea725f5")
 	)
 	(wire
 		(pts
@@ -2552,6 +2542,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 129.54) (xy 238.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45e2e82-82af-4437-8f96-1bbcaa33016f")
+	)
+	(wire
+		(pts
 			(xy 33.02 44.45) (xy 33.02 46.99)
 		)
 		(stroke
@@ -2562,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 43.18) (xy 267.97 43.18)
+			(xy 229.87 39.37) (xy 242.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 134.62) (xy 259.08 132.08)
+			(xy 233.68 130.81) (xy 233.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2601,8 +2601,8 @@
 		(uuid "fa97aabc-90e0-43c0-aa8a-b2be9381a218")
 	)
 	(rectangle
-		(start 237.49 68.58)
-		(end 281.94 147.32)
+		(start 212.09 68.58)
+		(end 256.54 135.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -2613,8 +2613,8 @@
 		(uuid 37a2ae16-0e14-4a97-94a9-dbb3755dd16d)
 	)
 	(rectangle
-		(start 237.49 29.21)
-		(end 281.94 62.23)
+		(start 212.09 25.4)
+		(end 256.54 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -2626,7 +2626,7 @@
 	)
 	(text_box "24V 5A rated barrel jacks\n18V Max for system"
 		(exclude_from_sim no)
-		(at 243.84 22.86 0)
+		(at 218.44 19.05 0)
 		(size 30.48 5.08)
 		(stroke
 			(width 0)
@@ -2664,9 +2664,31 @@
 		)
 		(uuid "ae930d5e-d58f-4d60-a1ff-e0709e767747")
 	)
-	(text "Pump/Fan supplies"
+	(text "System supply"
 		(exclude_from_sim no)
-		(at 258.064 70.612 0)
+		(at 235.204 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bc4a55e-cc82-4673-9fa5-4c452ff984eb")
+	)
+	(text "Add reverse voltage protection? Change connectors?"
+		(exclude_from_sim no)
+		(at 206.502 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "563aecd5-774f-4fce-9f0b-bfd7a786549a")
+	)
+	(text "Pump/Fan connectors"
+		(exclude_from_sim no)
+		(at 232.918 71.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,6 +2752,28 @@
 			)
 		)
 	)
+	(global_label "M0_OUT"
+		(shape input)
+		(at 238.76 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23f5f7a8-764c-4799-810e-582a6c0aab2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.0023 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWO"
 		(shape input)
 		(at 50.8 46.99 0)
@@ -2774,6 +2818,28 @@
 			)
 		)
 	)
+	(global_label "M1_OUT"
+		(shape input)
+		(at 238.76 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6339e3a3-bd77-4bd5-a0b8-165dd4ffdfbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.0023 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 50.8 52.07 0)
@@ -2796,9 +2862,31 @@
 			)
 		)
 	)
+	(global_label "M0_OUT"
+		(shape input)
+		(at 238.76 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95faeb3f-c2a5-45da-8241-0d50954a3779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.0023 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M1_IN"
 		(shape input)
-		(at 264.16 107.95 0)
+		(at 238.76 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2808,7 +2896,7 @@
 		)
 		(uuid "b7ac309e-f7e1-4e64-af5c-b78d1cab72c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.709 107.95 0)
+			(at 247.309 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2908,7 @@
 	)
 	(global_label "M2_IN"
 		(shape input)
-		(at 264.16 129.54 0)
+		(at 238.76 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2830,7 +2918,7 @@
 		)
 		(uuid "b946edd7-f983-4b12-aced-e1aa85ef99f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.709 129.54 0)
+			(at 247.309 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2930,7 @@
 	)
 	(global_label "M0_IN"
 		(shape input)
-		(at 264.16 83.82 0)
+		(at 238.76 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2852,7 +2940,7 @@
 		)
 		(uuid "ca846754-75f5-4bd5-95ae-11ca02f3ab8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.709 83.82 0)
+			(at 247.309 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2974,7 @@
 	)
 	(symbol
 		(lib_id "PJ-102AH:PJ-102AH")
-		(at 251.46 86.36 0)
+		(at 226.06 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2895,7 +2983,7 @@
 		(fields_autoplaced yes)
 		(uuid "0037c845-7d28-4830-9384-c2d0076a008f")
 		(property "Reference" "J5"
-			(at 248.2243 77.47 0)
+			(at 222.8243 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2991,7 @@
 			)
 		)
 		(property "Value" "PJ-102AH"
-			(at 248.2243 80.01 0)
+			(at 222.8243 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +2999,7 @@
 			)
 		)
 		(property "Footprint" "PJ-102AH:CUI_PJ-102AH"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3027,7 @@
 			)
 		)
 		(property "MF" "CUI Devices"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3037,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PJ-102AH/?ref=eda"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3047,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3057,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3067,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-102ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3077,7 @@
 			)
 		)
 		(property "MP" "PJ-102AH"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3087,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3097,7 @@
 			)
 		)
 		(property "Description_1" "2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector"
-			(at 251.46 86.36 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3191,7 @@
 	)
 	(symbol
 		(lib_id "PJ-102AH:PJ-102AH")
-		(at 251.46 110.49 0)
+		(at 226.06 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +3200,7 @@
 		(fields_autoplaced yes)
 		(uuid "14f8404d-a9bd-45ea-a672-7bd7fb34c2a2")
 		(property "Reference" "J6"
-			(at 248.2243 101.6 0)
+			(at 222.8243 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3208,7 @@
 			)
 		)
 		(property "Value" "PJ-102AH"
-			(at 248.2243 104.14 0)
+			(at 222.8243 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" "PJ-102AH:CUI_PJ-102AH"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3244,7 @@
 			)
 		)
 		(property "MF" "CUI Devices"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3254,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PJ-102AH/?ref=eda"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3264,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3274,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3284,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-102ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3294,7 @@
 			)
 		)
 		(property "MP" "PJ-102AH"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3304,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3314,7 @@
 			)
 		)
 		(property "Description_1" "2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector"
-			(at 251.46 110.49 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3410,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 267.97 40.64 0)
+		(at 242.57 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3330,7 +3418,7 @@
 		(dnp no)
 		(uuid "1d6f9abe-fb97-451d-8eec-9adc6b3f9fc3")
 		(property "Reference" "#PWR037"
-			(at 267.97 44.45 0)
+			(at 242.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3427,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 264.16 36.83 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 40.64 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 40.64 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 40.64 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,142 +4011,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 269.24 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ee56fb6-485d-4c7e-b9ec-88b7458f995f")
-		(property "Reference" "#PWR033"
-			(at 269.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98fff75a-8807-4cbe-a37b-fb6673be9ac9")
-		)
-		(instances
-			(project "Garden Control System"
-				(path "/be495e14-3da3-4129-8396-1871cb6cba29/204a168b-bbb9-470c-896a-2af26f197140"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 269.24 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97c8f4b4-7de9-45a6-8a92-84f269f311e1")
-		(property "Reference" "#PWR034"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d375b62-7458-47b9-a33f-cc302b788ec2")
-		)
-		(instances
-			(project "Garden Control System"
-				(path "/be495e14-3da3-4129-8396-1871cb6cba29/204a168b-bbb9-470c-896a-2af26f197140"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PJ-102AH:PJ-102AH")
-		(at 251.46 132.08 0)
+		(at 226.06 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4067,7 +4021,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8c02b51-b34d-4bb5-b8dd-5f8ab5301038")
 		(property "Reference" "J7"
-			(at 248.2243 123.19 0)
+			(at 222.8243 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4029,7 @@
 			)
 		)
 		(property "Value" "PJ-102AH"
-			(at 248.2243 125.73 0)
+			(at 222.8243 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4037,7 @@
 			)
 		)
 		(property "Footprint" "PJ-102AH:CUI_PJ-102AH"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4065,7 @@
 			)
 		)
 		(property "MF" "CUI Devices"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4075,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PJ-102AH/?ref=eda"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4085,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4095,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4105,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-102ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4115,7 @@
 			)
 		)
 		(property "MP" "PJ-102AH"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4125,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4135,7 @@
 			)
 		)
 		(property "Description_1" "2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector"
-			(at 251.46 132.08 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,75 +4163,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 269.24 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab6dfac-2260-4ad7-99c1-ec7f1fce6cec")
-		(property "Reference" "#PWR032"
-			(at 269.24 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e122dd67-9bd1-4740-85aa-1659a08c90d2")
-		)
-		(instances
-			(project "Garden Control System"
-				(path "/be495e14-3da3-4129-8396-1871cb6cba29/204a168b-bbb9-470c-896a-2af26f197140"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PJ-102AH:PJ-102AH")
-		(at 250.19 45.72 0)
+		(at 224.79 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4286,7 +4173,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd60698b-c691-4146-8317-a203592ec538")
 		(property "Reference" "J2"
-			(at 246.9543 36.83 0)
+			(at 221.5543 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4181,7 @@
 			)
 		)
 		(property "Value" "PJ-102AH"
-			(at 246.9543 39.37 0)
+			(at 221.5543 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4189,7 @@
 			)
 		)
 		(property "Footprint" "PJ-102AH:CUI_PJ-102AH"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4217,7 @@
 			)
 		)
 		(property "MF" "CUI Devices"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4227,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PJ-102AH/?ref=eda"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4237,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4247,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4257,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-102ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4267,7 @@
 			)
 		)
 		(property "MP" "PJ-102AH"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4277,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4287,7 @@
 			)
 		)
 		(property "Description_1" "2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector"
-			(at 250.19 45.72 0)
+			(at 224.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4317,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 267.97 50.8 0)
+		(at 242.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4439,7 +4326,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc7f599c-dc52-400d-9931-0028012528b1")
 		(property "Reference" "#PWR02"
-			(at 267.97 57.15 0)
+			(at 242.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 55.88 0)
+			(at 242.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 50.8 0)
+			(at 242.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 50.8 0)
+			(at 242.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 50.8 0)
+			(at 242.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
