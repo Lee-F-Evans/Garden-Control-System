@@ -186,396 +186,6 @@
 				)
 			)
 		)
-		(symbol "Driver_Motor:DRV8848"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DRV8848"
-				(at 7.366 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8848.pdf"
-				(at -29.21 34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Dual H-Bridge motor driver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP*1EP*4.4x5mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DRV8848_0_1"
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DRV8848_1_1"
-				(pin input line
-					(at -15.24 5.08 0)
-					(length 2.54)
-					(name "~{SLEEP}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -10.16 0)
-					(length 2.54)
-					(name "BIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 10.16 180)
-					(length 2.54)
-					(name "VINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "AIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "AIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "AOUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "AISEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "AOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "BOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -10.16 180)
-					(length 2.54)
-					(name "BISEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "BOUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "~{FAULT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "BIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "INA4180A21PWR:INA4180A2IPWR"
 			(pin_names
 				(offset 0.254)
@@ -1296,16 +906,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 52.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b8ea44-b93b-4ede-8adc-5a90396eed0d")
-	)
-	(wire
-		(pts
 			(xy 170.18 69.85) (xy 176.53 69.85)
 		)
 		(stroke
@@ -1316,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 64.77) (xy 67.31 68.58)
+			(xy 69.85 78.74) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1436,16 +1036,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 83.82) (xy 52.07 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e78436c-a509-4f1a-b3c0-6fa302125a24")
-	)
-	(wire
-		(pts
 			(xy 149.86 107.95) (xy 147.32 107.95)
 		)
 		(stroke
@@ -1466,16 +1056,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 88.9) (xy 91.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3b2e36-6b01-4112-b190-297f7105e8e2")
-	)
-	(wire
-		(pts
 			(xy 170.18 80.01) (xy 176.53 80.01)
 		)
 		(stroke
@@ -1493,16 +1073,6 @@
 			(type default)
 		)
 		(uuid "6d58de8a-e24e-4b3f-aef3-3bbac618d30d")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 91.44 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eaeef05-612f-4083-91a4-ba7143032bd4")
 	)
 	(wire
 		(pts
@@ -1536,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 67.31 102.87)
+			(xy 69.85 113.03) (xy 69.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1636,16 +1206,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 91.44) (xy 52.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc8f06cc-685f-4d7b-82c0-6bd2fdfbf5a5")
-	)
-	(wire
-		(pts
 			(xy 187.96 107.95) (xy 185.42 107.95)
 		)
 		(stroke
@@ -1653,16 +1213,6 @@
 			(type default)
 		)
 		(uuid "bd8d9cae-9cc1-4f78-b1e1-2778572d1e71")
-	)
-	(wire
-		(pts
-			(xy 82.55 81.28) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b7c2eb-083e-42a9-b2ba-7a8b132a0d03")
 	)
 	(wire
 		(pts
@@ -1738,7 +1288,7 @@
 		)
 		(uuid c2515ddc-3dd7-4064-967d-06295c91a0c7)
 	)
-	(text_box "Current/Voltage monitoring ICs\nDigital with I2C:INA3221AIRGVR (3 CHANNEL) ~$6\nAnalog output: INA4180A2IPWR 4channel $1.5\nAnalog output: INA2180A1IDGKR 2channel $0.9\n\nFor analog option, might need to filter before micro..\nReview datasheet\n\nHigh side current sense above motor driver."
+	(text_box "Current/Voltage monitoring ICs\nDigital with I2C:INA3221AIRGVR (3 CHANNEL) ~$6\nAnalog output: INA4180A2IPWR 4channel $1.5\nAnalog output: INA2180A1IDGKR 2channel $0.9\n\nFor analog option, might need to filter before micro..\nReview datasheet\n\nHigh side current sense above motor but below driver."
 		(exclude_from_sim no)
 		(at 148.59 29.21 0)
 		(size 68.58 20.32)
@@ -1758,10 +1308,10 @@
 		)
 		(uuid "71619aad-2c1e-449c-abe1-b428736123ae")
 	)
-	(text_box "Chose to use an HBridge driver instead of \nimplenenting my own mosfet driver circuit due to \nreduced costs, ease of design, easier layout, and \nmore compact design. \n\nCould add redundancy by driving 2 outputs connected in \nparallel across 2 ICs.\n\nMotor driver connected as a HSD."
+	(text_box "Chose to use an HBridge driver instead of \nimplenenting my own mosfet driver circuit due to \nreduced costs, ease of design, easier layout, and \nmore compact design. \n\nCould add redundancy by driving 2 outputs connected in \nparallel across 2 ICs.\n\nMotor driver connected as a HSD.\n18V max motor driver DRV8848PWPR: $3.50\n48V max motor driver DRV8434PPWPR: 6.06\n\nCould do a gate driver + mosfet for 12V and 24V operation.\nMosfet: 4x IRLML6344TRPBF, $0.519 + 2x UCC27624DR (or UCC27624QDRQ1) $2.15: TOT=~$6\n(gate driver could be hooked up to 5V if \nfet Rds on is low enough at Vgs=5V. Downgrade the gate driver if so.)"
 		(exclude_from_sim no)
-		(at 45.72 29.21 0)
-		(size 45.72 26.67)
+		(at 22.86 29.21 0)
+		(size 91.44 36.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -1778,7 +1328,7 @@
 		)
 		(uuid "c21cdfd3-d4d1-4c7b-b410-f12aafb5a7ed")
 	)
-	(text "CHECK FOR CAP FILTERING"
+	(text "CHECK LAYOUT DETAILS\nADD FILTERS FOR AO SIGNALS?"
 		(exclude_from_sim no)
 		(at 196.342 57.15 0)
 		(effects
@@ -1788,6 +1338,17 @@
 			)
 		)
 		(uuid "05764f20-ac32-4b63-935a-b7ca98978105")
+	)
+	(text "CHECK LAYOUT DETAILS TO FINISH"
+		(exclude_from_sim no)
+		(at 96.774 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "12321fa1-5e8b-4206-a793-8273356b1cc6")
 	)
 	(text "Current and Power Monitoring"
 		(exclude_from_sim no)
@@ -1801,7 +1362,7 @@
 	)
 	(text "NEED TO SIZE SHUNTS PROPERLY"
 		(exclude_from_sim no)
-		(at 187.452 103.378 0)
+		(at 197.612 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1932,7 +1493,7 @@
 	)
 	(global_label "SHUNT1_IN"
 		(shape input)
-		(at 91.44 81.28 0)
+		(at 95.25 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1942,7 +1503,7 @@
 		)
 		(uuid "277b18d4-8f2f-451c-852a-35086f643b71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.7062 81.28 0)
+			(at 108.5162 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1581,7 @@
 	)
 	(global_label "M2_PWM"
 		(shape input)
-		(at 45.72 91.44 180)
+		(at 41.91 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2030,7 +1591,7 @@
 		)
 		(uuid "53da502f-684a-4074-8116-3520e46ff0ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9335 91.44 0)
+			(at 31.1235 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +1603,7 @@
 	)
 	(global_label "M0_PWM"
 		(shape input)
-		(at 45.72 83.82 180)
+		(at 41.91 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2052,7 +1613,7 @@
 		)
 		(uuid "55b5a8dc-8f74-44e0-ae05-21d78f5d8f9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9335 83.82 0)
+			(at 31.1235 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +1757,7 @@
 	)
 	(global_label "M1_PWM"
 		(shape input)
-		(at 45.72 86.36 180)
+		(at 41.91 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2206,7 +1767,7 @@
 		)
 		(uuid "ad2dfb54-5ac3-4356-a53b-d00d8429eec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9335 86.36 0)
+			(at 31.1235 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +1845,7 @@
 	)
 	(global_label "SHUNT0_IN"
 		(shape input)
-		(at 91.44 78.74 0)
+		(at 95.25 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2294,7 +1855,7 @@
 		)
 		(uuid "bbb60c08-c63c-42f2-b5a3-59ec2076a704")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.7062 78.74 0)
+			(at 108.5162 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +1911,7 @@
 	)
 	(global_label "SHUNT2_IN"
 		(shape input)
-		(at 91.44 88.9 0)
+		(at 95.25 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2360,7 +1921,7 @@
 		)
 		(uuid "daa32481-bb16-40fd-b36f-3a1df0aff230")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.7062 88.9 0)
+			(at 108.5162 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 102.87 0)
+		(at 69.85 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2739,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e46f25c-badd-434c-beb6-09b97faf19a6")
 		(property "Reference" "#PWR031"
-			(at 67.31 109.22 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 107.95 0)
+			(at 69.85 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 102.87 0)
+			(at 69.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 102.87 0)
+			(at 69.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 102.87 0)
+			(at 69.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2357,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 67.31 64.77 0)
+		(at 69.85 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +2365,7 @@
 		(dnp no)
 		(uuid "af8d3e30-bd46-4ca9-9b5a-d80184003b92")
 		(property "Reference" "#PWR038"
-			(at 67.31 68.58 0)
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2374,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 65.532 60.96 0)
+			(at 68.072 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 64.77 0)
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 64.77 0)
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 64.77 0)
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,121 +2634,6 @@
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29/9f2dbd4f-9250-47a2-9054-c36b37ba7178"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8848")
-		(at 67.31 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd9c028d-4f16-4128-a733-2f57185623c1")
-		(property "Reference" "U3"
-			(at 69.5041 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8848"
-			(at 69.5041 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm"
-			(at 67.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8848.pdf"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16"
-			(at 67.31 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "fa16d625-ac38-4302-b884-02b0900148d7")
-		)
-		(pin "11"
-			(uuid "eb8c8d4b-4010-4bad-8237-35ddaa533bec")
-		)
-		(pin "6"
-			(uuid "45bea8bf-fd54-4a68-86cb-8a9295232f99")
-		)
-		(pin "1"
-			(uuid "b97454b4-4f31-415a-812d-825fe1e9025e")
-		)
-		(pin "2"
-			(uuid "e2018a15-6e08-4f30-9d57-398aabdd3346")
-		)
-		(pin "12"
-			(uuid "e694c2bd-9a46-42e1-b678-66fbb4aefd90")
-		)
-		(pin "14"
-			(uuid "5c35a5c8-24bb-4275-b64a-f368f452a561")
-		)
-		(pin "10"
-			(uuid "2336e0e8-3f56-445c-a7fb-7f01f13ebc84")
-		)
-		(pin "16"
-			(uuid "742e7395-d82b-459d-8611-e9070b95ce7d")
-		)
-		(pin "3"
-			(uuid "16dc7bc3-87cd-4b66-a457-d9760348305d")
-		)
-		(pin "17"
-			(uuid "bb10c99d-db56-41ff-a400-196dfa7ea23d")
-		)
-		(pin "4"
-			(uuid "8034120a-af00-4b9d-b1a4-c1760a8412e5")
-		)
-		(pin "5"
-			(uuid "545b6c5b-35ea-4531-90c6-cba307ec8680")
-		)
-		(pin "13"
-			(uuid "96ff0d43-ef88-4263-a30c-e30a949b9d2e")
-		)
-		(pin "7"
-			(uuid "7bb5f9c5-b1dd-4af2-bee1-25397a5dd9a3")
-		)
-		(pin "8"
-			(uuid "e1cee14c-7454-4f74-b425-b50201d4b369")
-		)
-		(pin "9"
-			(uuid "6f113a89-cbd3-4575-af0f-635e82e94146")
-		)
-		(instances
-			(project "Garden Control System"
-				(path "/be495e14-3da3-4129-8396-1871cb6cba29/9f2dbd4f-9250-47a2-9054-c36b37ba7178"
-					(reference "U3")
 					(unit 1)
 				)
 			)

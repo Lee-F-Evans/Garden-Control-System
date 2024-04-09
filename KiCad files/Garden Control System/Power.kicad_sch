@@ -662,6 +662,17 @@
 		)
 		(uuid "e195b2c5-23e5-4eed-90c8-afcd7836b6b8")
 	)
+	(text "Can be up to 24V supply"
+		(exclude_from_sim no)
+		(at 43.942 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "162fa36f-8537-4db5-9049-756f5879090b")
+	)
 	(text "COULD REDUCE CURRENT RATING OF DIODE"
 		(exclude_from_sim no)
 		(at 81.28 92.456 0)
