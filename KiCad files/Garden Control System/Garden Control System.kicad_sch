@@ -11,6 +11,66 @@
 		(company "Lee Evans")
 	)
 	(lib_symbols)
+	(polyline
+		(pts
+			(xy 105.41 31.75) (xy 128.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfc2fc8-a072-4303-bec5-d2a27cb38468")
+	)
+	(polyline
+		(pts
+			(xy 53.34 31.75) (xy 81.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11aa4561-c6d3-4d68-89b7-39e5d5177216")
+	)
+	(polyline
+		(pts
+			(xy 115.57 31.75) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1398a29b-1ef7-4557-9c3f-3bb90511df87")
+	)
+	(polyline
+		(pts
+			(xy 152.4 31.75) (xy 172.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df9180b-6c0d-4ec1-94f1-6d07be74d859")
+	)
+	(polyline
+		(pts
+			(xy 66.04 31.75) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a1661b-3c08-4225-a74e-ed9c606c2000")
+	)
+	(polyline
+		(pts
+			(xy 172.72 31.75) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb846363-7380-4e2a-ba11-59b6d5bb66e2")
+	)
 	(rectangle
 		(start 229.87 93.98)
 		(end 265.43 128.27)
@@ -20,14 +80,14 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 194 1)
+			(color 72 72 72 1)
 		)
 		(uuid d8322c88-0167-4e18-b618-41e2bb3c47a3)
 	)
-	(text_box "3V3 LDO"
+	(text_box "If bucked from VBAT to 5V, LDO power loss = (5-3.3)(LDO Current out + LDO Current ) \n= 1.7*(0.145 + ??) = ~0.25W"
 		(exclude_from_sim no)
-		(at 203.2 31.75 0)
-		(size 24.13 10.16)
+		(at 105.41 -13.97 0)
+		(size 100.33 19.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -37,15 +97,36 @@
 		)
 		(effects
 			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0975081c-ef8b-4c1c-9a3f-519e0e759cd0")
+	)
+	(text_box "3V3 LDO"
+		(exclude_from_sim no)
+		(at 128.27 26.67 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.34)
+		)
+		(effects
+			(font
 				(size 1.905 1.905)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "0c045749-9d89-427d-a0c9-32d544cfa37f")
 	)
-	(text_box "3V5 BUCK"
+	(text_box "-select encoder part\n-add encoder circuit\n\n-choose temp sensor type\n-add temp sensor to schematic\n\n-add LEDs to the power rails\n\n-add debug LED to micro\n\n-research ESD protection types (ESD cap vs TVS diode)\n-add ESD protection to connectors\n\n-research how to add more memory\n\n-research a display to add\n-add display to schematic\n\n"
 		(exclude_from_sim no)
-		(at 157.48 31.75 0)
-		(size 24.13 10.16)
+		(at 17.78 -218.44 0)
+		(size 256.54 172.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -55,7 +136,28 @@
 		)
 		(effects
 			(font
+				(size 5.08 5.08)
+			)
+			(justify left top)
+		)
+		(uuid "19591852-a541-4be7-927d-3797391fe171")
+	)
+	(text_box "5V Buck"
+		(exclude_from_sim no)
+		(at 81.28 26.67 0)
+		(size 24.13 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.68)
+		)
+		(effects
+			(font
 				(size 1.905 1.905)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "34ce7121-2451-4c55-be2b-048bf3883ab8")
@@ -136,24 +238,6 @@
 		)
 		(uuid "70b73abe-b667-427c-95a0-d8b5d6eaf466")
 	)
-	(text_box "~5V BUCK"
-		(exclude_from_sim no)
-		(at 110.49 31.75 0)
-		(size 24.13 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "9b6924cc-4b76-41fe-9342-ed9abec7bf58")
-	)
 	(text_box "ETHERNET"
 		(exclude_from_sim no)
 		(at 82.55 153.67 0)
@@ -192,20 +276,22 @@
 		)
 		(uuid "a66673ad-78ab-47ba-82bf-2175022ef9c5")
 	)
-	(text_box "VBAT\n24VMAX"
+	(text_box "VBAT\n10-24VMAX"
 		(exclude_from_sim no)
-		(at 66.04 31.75 0)
+		(at 29.21 26.67 0)
 		(size 24.13 10.16)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 0 0 132 1)
 		)
 		(effects
 			(font
 				(size 1.905 1.905)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "c616fc4d-26c8-409e-b923-172c10a14ad5")
@@ -298,25 +384,15 @@
 		)
 		(uuid "01242967-3fa3-40c0-a8b6-a900b91be94e")
 	)
-	(text "PUMPS/FANS"
+	(text "PUMPS/FANS 2A x2 "
 		(exclude_from_sim no)
-		(at 100.584 49.784 0)
+		(at 63.5 45.72 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "0adef0ae-baba-433a-a6de-5b81924befba")
-	)
-	(text "GATE DRIVERS"
-		(exclude_from_sim no)
-		(at 144.78 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "131a8d0f-3a12-48af-b24e-550b8b731abd")
 	)
 	(text "PWM"
 		(exclude_from_sim no)
@@ -342,13 +418,14 @@
 		)
 		(uuid "2cb198f9-acb2-4f30-b731-2637e1026aea")
 	)
-	(text "MICRO, PHY, "
+	(text "MICRO 81mA worst case\nPHY 55mA @3.3V\nINA current sense 1mA Iq + 8mA Iout worst case = 9mA\n-------\ntot: 145mA"
 		(exclude_from_sim no)
-		(at 238.252 49.53 0)
+		(at 163.068 48.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
+			(justify left)
 		)
 		(uuid "571b190a-b83d-48c9-86eb-c5354a2945bb")
 	)
@@ -376,15 +453,27 @@
 		)
 		(uuid "714d3822-9a73-4655-bad4-f93a84cd4463")
 	)
-	(text "DISPLAY, SENSORS?"
+	(text "DISPLAY\nSENSORS\nGATE DRIVERS\nCURRENT SENSOR"
 		(exclude_from_sim no)
-		(at 193.294 49.53 0)
+		(at 112.268 50.546 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
+			(justify left)
 		)
 		(uuid "87f733ca-b4dd-4b96-ba0c-944a26a4f946")
+	)
+	(text "ToDo:"
+		(exclude_from_sim no)
+		(at 131.572 -228.346 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8e4b623b-1cb9-49d9-bba2-3fdbb1970061")
 	)
 	(text "Communication"
 		(exclude_from_sim no)
