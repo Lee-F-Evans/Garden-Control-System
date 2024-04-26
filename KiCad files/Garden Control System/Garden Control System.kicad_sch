@@ -123,7 +123,7 @@
 		)
 		(uuid "0c045749-9d89-427d-a0c9-32d544cfa37f")
 	)
-	(text_box "-select encoder part\n-add encoder circuit\n\n-choose temp sensor type\n-add temp sensor to schematic\n\n-add LEDs to the power rails\n\n-add debug LED to micro\n\n-research ESD protection types (ESD cap vs TVS diode)\n-add ESD protection to connectors\n\n-research how to add more memory\n\n-research a display to add\n-add display to schematic\n\n"
+	(text_box "-choose temp sensor type\n-add temp sensor to schematic\n\n-research ESD protection types (ESD cap vs TVS diode)\n-add ESD protection to connectors\n\n-research how to add more memory\n\n-research a display to add\n-add display to schematic\n\n"
 		(exclude_from_sim no)
 		(at 17.78 -218.44 0)
 		(size 256.54 172.72)
@@ -488,6 +488,44 @@
 		(uuid "a5d2461f-bae5-4ba1-882b-565ee8e4c6ad")
 	)
 	(sheet
+		(at 7.62 441.96)
+		(size 314.96 181.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01517a23-0931-4c0b-b83e-f956d6a90b14")
+		(property "Sheetname" "Encoder and Display"
+			(at 7.62 441.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Encoder and Display.kicad_sch"
+			(at 7.62 624.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 745.49 0)
 		(size 326.39 195.58)
 		(fields_autoplaced yes)
@@ -673,6 +711,44 @@
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 335.28 443.23)
+		(size 391.16 182.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8477d79-d6f3-4f63-badf-d685450b3edf")
+		(property "Sheetname" "Temperature Sensors"
+			(at 335.28 442.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature Sensors.kicad_sch"
+			(at 335.28 626.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "8")
 				)
 			)
 		)

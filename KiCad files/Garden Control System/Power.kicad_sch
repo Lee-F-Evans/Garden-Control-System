@@ -287,6 +287,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1540,6 +1711,12 @@
 		(uuid "08f3df74-6377-442e-8e38-45c1b0b6cb20")
 	)
 	(junction
+		(at 132.08 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d975c5-5a24-4c20-83e7-f904fb0ee7cb")
+	)
+	(junction
 		(at 210.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1550,6 +1727,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ef3562e-1c1b-4093-8875-1e0dcd1dba6d")
+	)
+	(junction
+		(at 266.7 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "429b7ed8-1a00-4cdd-9f16-8314c29fec69")
 	)
 	(junction
 		(at 48.26 149.86)
@@ -1731,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 124.46 149.86)
+			(xy 116.84 149.86) (xy 132.08 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 140.97) (xy 124.46 149.86)
+			(xy 132.08 140.97) (xy 132.08 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1891,6 +2074,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 158.75) (xy 132.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6a64cc-7cdd-4aac-90c5-bf8dbc2bf77b")
+	)
+	(wire
+		(pts
 			(xy 48.26 149.86) (xy 48.26 154.94)
 		)
 		(stroke
@@ -2008,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "6f9467d9-3799-4bb1-b74e-36ac60d3cb61")
+	)
+	(wire
+		(pts
+			(xy 132.08 153.67) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719efcdc-a8a9-4638-b5c3-c11496da96e2")
 	)
 	(wire
 		(pts
@@ -2261,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 167.64) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b8827e-4a28-4b20-8815-bc3043dd9f89")
+	)
+	(wire
+		(pts
 			(xy 53.34 77.47) (xy 60.96 77.47)
 		)
 		(stroke
@@ -2268,6 +2481,16 @@
 			(type default)
 		)
 		(uuid "c18a91c8-1009-4ba9-b27d-87dcec652ff4")
+	)
+	(wire
+		(pts
+			(xy 266.7 77.47) (xy 266.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4562cb-bcee-4f90-8d70-c8dd8480ff3f")
 	)
 	(wire
 		(pts
@@ -2419,6 +2642,26 @@
 		)
 		(uuid "f82094a7-b865-4a80-94be-8b822d72edbf")
 	)
+	(wire
+		(pts
+			(xy 266.7 86.36) (xy 266.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdb862d-3ad9-4d04-9071-7c4a1f895d74")
+	)
+	(wire
+		(pts
+			(xy 266.7 68.58) (xy 266.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcbacce-0291-4aed-8222-3b5a7a8ca867")
+	)
 	(rectangle
 		(start 13.97 13.97)
 		(end 106.68 90.17)
@@ -2445,7 +2688,7 @@
 	)
 	(rectangle
 		(start 13.97 115.57)
-		(end 138.43 179.07)
+		(end 144.78 179.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -2478,7 +2721,7 @@
 	)
 	(text "Vout = 0.5(r1/r2  + 1)"
 		(exclude_from_sim no)
-		(at 121.158 171.45 0)
+		(at 83.82 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,6 +2751,16 @@
 		)
 		(uuid "7c14cb7a-6909-49a1-8e8b-59d80cdcb16e")
 	)
+	(text "LED\nSML-P11UTT86R\nVfw = 1.8, I = 1mA"
+		(exclude_from_sim no)
+		(at 286.512 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "837ff7c5-7dec-4d4b-b2c4-d1c626f27b6e")
+	)
 	(text "10-24V SUPPLY"
 		(exclude_from_sim no)
 		(at 69.596 20.32 0)
@@ -2517,6 +2770,16 @@
 			)
 		)
 		(uuid "8d8775cf-ff7d-484e-8f69-2133d067b331")
+	)
+	(text "LED\nSML-P11UTT86R\nVfw = 1.8, I = 1mA"
+		(exclude_from_sim no)
+		(at 153.162 157.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e0e7f6c-9c2e-464f-9df1-98408008c051")
 	)
 	(text "LDO: TPS7A7001DDAR\nTPS7A7001DDAR only needs a differential of 380mV at full 2A."
 		(exclude_from_sim no)
@@ -2847,6 +3110,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d8aaf5-fe61-4055-8ecb-b75df8ff72bf")
+		(property "Reference" "#PWR064"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93649493-dbc5-4e87-a900-d2a4233dc247")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd61e62-0aa3-4523-bec3-761cf1439e25")
+		(property "Reference" "R37"
+			(at 269.24 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k16"
+			(at 269.24 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 266.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "922c1da8-89d7-48ab-8609-bac5b7ea7d75")
+		)
+		(pin "2"
+			(uuid "34be0614-64b0-4b30-81e6-8f0e6f3b5818")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 215.9 76.2 0)
 		(unit 1)
@@ -3047,6 +3445,76 @@
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44695ac7-94bd-4c66-8dde-5ddae0375f6a")
+		(property "Reference" "R38"
+			(at 134.62 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k47"
+			(at 134.62 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d12c2b1-ddcc-4e33-b70c-ccaa380bd529")
+		)
+		(pin "2"
+			(uuid "683daa03-daf1-4fae-a12b-96ad057edea1")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3942,6 +4410,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 266.7 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f61eb7e-76c9-4278-a5dc-153969a404c3")
+		(property "Reference" "D2"
+			(at 269.748 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V LED"
+			(at 272.034 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd4113a8-94e0-405e-b3ce-6f41ac0dbb80")
+		)
+		(pin "1"
+			(uuid "73650b8c-e5a7-4473-a2f5-bd75b1ee8160")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 148.59 71.12 90)
 		(unit 1)
@@ -4010,7 +4545,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 124.46 140.97 0)
+		(at 132.08 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4019,7 +4554,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6430371-3b03-4332-9674-183f0faa9788")
 		(property "Reference" "#PWR033"
-			(at 124.46 144.78 0)
+			(at 132.08 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4563,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 127 139.6999 0)
+			(at 134.62 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 140.97 0)
+			(at 132.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 140.97 0)
+			(at 132.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 140.97 0)
+			(at 132.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,6 +5227,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e589d494-1b63-417f-909c-ed712e0a54fd")
+		(property "Reference" "#PWR066"
+			(at 132.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe83329-552d-455a-bb5c-38b6f6b50c10")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 80.01 0)
 		(unit 1)
@@ -4821,6 +5421,73 @@
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 132.08 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb814dcf-f5ce-4b99-b041-93e1d9c1729a")
+		(property "Reference" "D3"
+			(at 135.128 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 LED"
+			(at 137.922 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e86e5ea-13fb-439d-b799-59ad609e1897")
+		)
+		(pin "1"
+			(uuid "4648ad1b-d439-4fc8-af78-d72cc87a457b")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/55fe0748-2c23-42b7-878f-a313d609d0dd"
+					(reference "D3")
 					(unit 1)
 				)
 			)

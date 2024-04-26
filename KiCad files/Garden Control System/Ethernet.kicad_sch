@@ -9783,7 +9783,7 @@
 				)
 			)
 		)
-		(property "Value" "600"
+		(property "Value" "1k"
 			(at 254 46.99 90)
 			(effects
 				(font
@@ -11575,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Value" "600"
+		(property "Value" "1k"
 			(at 254 52.07 90)
 			(effects
 				(font

@@ -1629,6 +1629,12 @@
 		(uuid "2b23593f-ea3c-46c8-9bd5-3d02d94d2ae9")
 	)
 	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480db5a7-1dcc-4219-8238-0c3beac75419")
+	)
+	(junction
 		(at 86.36 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1645,6 +1651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "592e5cd2-598e-4052-a99e-1bb01a0b922a")
+	)
+	(junction
+		(at 38.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9974d4e1-4f31-4bb9-9c4f-9a814acd18d9")
 	)
 	(junction
 		(at 119.38 149.86)
@@ -1732,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 81.28) (xy 39.37 81.28)
+			(xy 38.1 81.28) (xy 39.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1942,6 +1954,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 68.58) (xy 27.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3524929e-fb07-4806-bcc3-e2b81017567e")
+	)
+	(wire
+		(pts
 			(xy 171.45 143.51) (xy 171.45 140.97)
 		)
 		(stroke
@@ -2052,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 82.55 124.46)
+			(xy 38.1 124.46) (xy 82.55 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 35.56 124.46)
+			(xy 38.1 138.43) (xy 38.1 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2442,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 124.46) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d67b5d-0fa6-4e18-bdd0-26c14284b8f2")
+	)
+	(wire
+		(pts
 			(xy 218.44 137.16) (xy 218.44 146.05)
 		)
 		(stroke
@@ -2522,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 35.56 81.28)
+			(xy 38.1 68.58) (xy 38.1 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2684,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 35.56 68.58)
+			(xy 35.56 68.58) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ccfa3f-68ba-4153-8ec8-e7edf477a4ce")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 38.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2752,6 +2794,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 124.46) (xy 26.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34c0c21-5cd7-4b61-8947-bbf36df58b33")
+	)
+	(wire
+		(pts
 			(xy 39.37 86.36) (xy 38.1 86.36)
 		)
 		(stroke
@@ -2772,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 138.43) (xy 35.56 138.43)
+			(xy 40.64 138.43) (xy 38.1 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2846,9 +2898,9 @@
 		)
 		(uuid ddc898c2-ee1f-45aa-832e-ddfaa78463da)
 	)
-	(text_box "Current/Voltage monitoring ICs\nDigital with I2C:INA3221AIRGVR (3 CHANNEL) ~$6\nAnalog output: INA4180A2IPWR 4channel $1.5\nAnalog output: INA2180A1IDGKR 2channel $0.9\n\nFor analog option, might need to filter before micro..\nReview datasheet\n\nHigh side current sense above motor but below driver."
+	(text_box "Current/Voltage monitoring ICs\nDigital with I2C:INA3221AIRGVR (3 CHANNEL) ~$6\nAnalog output: INA4180A2IPWR 4channel $1.5\nAnalog output: INA2180A1IDGKR 2channel $0.9\n\nFor analog option, might need to filter before micro..\nReview datasheet\n\nHigh side current sense above motor."
 		(exclude_from_sim no)
-		(at 278.13 13.97 0)
+		(at 290.83 15.24 0)
 		(size 68.58 20.32)
 		(stroke
 			(width 0)
@@ -2866,10 +2918,10 @@
 		)
 		(uuid "71619aad-2c1e-449c-abe1-b428736123ae")
 	)
-	(text_box "Motor driver connected as a HSD.\n18V max motor driver DRV8848PWPR: $3.50\n48V max motor driver DRV8434PPWPR: 6.06\n\nCould do a gate driver + mosfet for 12V and 24V operation.\nMosfet: 4x IRLML6344TRPBF, $0.519 + 2x UCC27624DR (or UCC27624QDRQ1) $2.15: TOT=~$6\n\nGate driver IN# good for 3V logic. Vdd safe for 5-26V."
+	(text_box "Motor driver connected as a HSD.\n18V max motor driver DRV8848PWPR: $3.50\n48V max motor driver DRV8434PPWPR: 6.06\n\nCould do a gate driver + mosfet for 12V and 24V operation.\nMosfet: 4x IRLML6344TRPBF, $0.519 + 2x UCC27624DR (or UCC27624QDRQ1) $2.15: TOT=~$6\n\nGate driver IN# good for 3V logic. Vdd safe for 4.5-26V."
 		(exclude_from_sim no)
 		(at 22.86 17.78 0)
-		(size 77.47 36.83)
+		(size 77.47 21.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -2902,7 +2954,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
+				(color 0 0 132 1)
 			)
 			(justify left)
 		)
@@ -2930,18 +2982,6 @@
 		)
 		(uuid "8224e60c-1da2-434e-bb7c-d3628424b417")
 	)
-	(text "Tie enable to pullup? 3v3? Micro Pin?"
-		(exclude_from_sim no)
-		(at 15.24 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9529515c-96c1-4b6b-9fd8-c129863b14d9")
-	)
 	(text "RDS(on) max @V GS = 4.5V, 29 mΩ\nRDS(on) max @V GS = 2.5V, 37 mΩ"
 		(exclude_from_sim no)
 		(at 146.558 115.57 0)
@@ -2963,18 +3003,6 @@
 		)
 		(uuid "bae1e621-1dfd-44b6-9346-75a173571936")
 	)
-	(text "Supply 3.3V from buck and Vdd from Vin \nUCC21550BDWR\n"
-		(exclude_from_sim no)
-		(at 65.278 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cccd41fd-1383-4225-b969-ed62a4662300")
-	)
 	(text "ADD FLYBACK PROTECTION"
 		(exclude_from_sim no)
 		(at 134.366 107.442 0)
@@ -2989,7 +3017,7 @@
 	)
 	(text "For the best high-speed circuit performance and to prevent noise problems because the device draws current\nfrom the VDD pin to bias all internal circuits, use two VDD bypass capacitors. Also, use surface mount, low\nESR capacitors. \n\nA 0.1-μF ceramic capacitor should be located less than 1 mm from the VDD to GND pins of\nthe gate-driver device. \n\nIn addition, a larger capacitor (≥1 μF) must be connected in parallel (also as close to the\ndriver IC as possible) to help deliver the high-current peaks required by the load. The parallel combination of\ncapacitors presents a low impedance characteristic for the expected current levels and switching frequencies in\nthe application."
 		(exclude_from_sim no)
-		(at -103.886 104.14 0)
+		(at -102.108 103.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,6 +3564,28 @@
 			)
 		)
 	)
+	(global_label "GDRIVER_EN"
+		(shape input)
+		(at 22.86 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5986c61-b9f4-4bb0-b976-508c4579c54a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 8.5053 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I_SENSE2_-"
 		(shape input)
 		(at 245.11 43.18 0)
@@ -3664,6 +3714,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GDRIVER_EN"
+		(shape input)
+		(at 24.13 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed7fc407-806d-4776-a785-133e186c0dfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 9.7753 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3905,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 27.432 86.36 90)
 			(effects
 				(font
@@ -4169,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 27.432 138.684 90)
 			(effects
 				(font
@@ -5382,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 27.432 81.534 90)
 			(effects
 				(font
@@ -6080,6 +6152,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 30.48 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30575fc-0f82-46b4-b1e8-6aa9a303262b")
+		(property "Reference" "R41"
+			(at 31.242 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 26.162 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72dd3dd-66c4-4120-9fad-45bc99e33aab")
+		)
+		(pin "2"
+			(uuid "303b5c67-2fe6-4c9e-873c-5d97bee9f00f")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/9f2dbd4f-9250-47a2-9054-c36b37ba7178"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 232.41 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6479,6 +6618,73 @@
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29/9f2dbd4f-9250-47a2-9054-c36b37ba7178"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe06283e-4d23-499d-88e4-80ba7f6418e5")
+		(property "Reference" "R40"
+			(at 32.512 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 27.432 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6f3810-8ee6-4df9-9543-4d43864fac8f")
+		)
+		(pin "2"
+			(uuid "989f1f4e-6c24-48bc-91c3-196e38ee4ac2")
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29/9f2dbd4f-9250-47a2-9054-c36b37ba7178"
+					(reference "R40")
 					(unit 1)
 				)
 			)

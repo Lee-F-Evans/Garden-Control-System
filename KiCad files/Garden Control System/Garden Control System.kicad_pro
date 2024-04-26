@@ -420,6 +420,14 @@
     [
       "2e2e63ab-c4f1-440d-ac62-fc929ffe2afa",
       "Ethernet"
+    ],
+    [
+      "01517a23-0931-4c0b-b83e-f956d6a90b14",
+      "Encoder and Display"
+    ],
+    [
+      "b8477d79-d6f3-4f63-badf-d685450b3edf",
+      "Temperature Sensors"
     ]
   ],
   "text_variables": {}
