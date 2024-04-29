@@ -261,10 +261,10 @@
 		)
 		(uuid "c5a96103-4300-484d-a5e3-30d5c6d3e637")
 	)
-	(text_box "Options:\n-Thermalcouple\n-Thermistor\n-RTD\n-DS18B20\n------------\nChose thermistor since there is lots of cheap sensor options to purchase.\nOther sensors would cost more or require me to create and assemble an additional part."
+	(text_box "Options:\n-Thermalcouple\n-Thermistor\n-RTD\n-DS18B20\n------------\nChose thermistor since there is lots of cheap sensor options to purchase.\nOther sensors would cost more or require me to create and assemble an additional part.\n\nDesigning around a 10k B3950 thermistor since this is a common part.\n\nCould use a LUT for temp measurement and sacrifice flash memory (19kb) or implement steinhart-hart equation.\n"
 		(exclude_from_sim no)
-		(at 307.34 30.48 0)
-		(size 83.82 27.94)
+		(at 13.97 13.97 0)
+		(size 83.82 54.61)
 		(stroke
 			(width 0)
 			(type default)
