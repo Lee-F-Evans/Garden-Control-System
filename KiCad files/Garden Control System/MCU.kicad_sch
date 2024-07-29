@@ -7902,7 +7902,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e7224dc-fa17-4a3b-bfa7-171f6ae97886")
 		(property "Reference" "C9"
-			(at 281.94 67.3163 0)
+			(at 281.94 67.3162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,8 +7910,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 281.94 69.8563 0)
+		(property "Value" "4u7"
+			(at 281.94 69.8562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
