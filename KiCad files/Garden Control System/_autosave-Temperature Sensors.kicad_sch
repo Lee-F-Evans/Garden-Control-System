@@ -1478,7 +1478,18 @@
 		)
 		(uuid "058f7801-18bf-4c7f-b654-8068fea151d3")
 	)
-	(text "NTC B25/50 3950 Sensors"
+	(text "B value refers to the R/T slope for a specific temp range.\n\noutput range should be 0.5-3.25V\n3.25V = 3.3*R1/(R1+R2)"
+		(exclude_from_sim no)
+		(at 77.978 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08087b5f-a609-4d32-ad83-35f6c4aff39d")
+	)
+	(text "NTC B25/50 3950 100k Sensors"
 		(exclude_from_sim no)
 		(at 148.59 21.336 0)
 		(effects

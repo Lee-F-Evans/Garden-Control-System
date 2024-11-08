@@ -300,6 +300,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -410,24 +411,32 @@
       "Power"
     ],
     [
-      "204a168b-bbb9-470c-896a-2af26f197140",
-      "Connectors"
+      "5caeae25-7156-452b-92ee-6c78120a7cbf",
+      "Current Sense"
     ],
     [
       "9f2dbd4f-9250-47a2-9054-c36b37ba7178",
-      "LSD and Current Sense"
+      "Motor Drivers"
     ],
     [
-      "2e2e63ab-c4f1-440d-ac62-fc929ffe2afa",
-      "Ethernet"
+      "b8477d79-d6f3-4f63-badf-d685450b3edf",
+      "Temperature Sensors"
+    ],
+    [
+      "8016488c-f01c-448d-8279-26816f175961",
+      "pH Sensor"
     ],
     [
       "01517a23-0931-4c0b-b83e-f956d6a90b14",
       "Encoder and Display"
     ],
     [
-      "b8477d79-d6f3-4f63-badf-d685450b3edf",
-      "Temperature Sensors"
+      "2e2e63ab-c4f1-440d-ac62-fc929ffe2afa",
+      "Ethernet"
+    ],
+    [
+      "204a168b-bbb9-470c-896a-2af26f197140",
+      "Connectors"
     ]
   ],
   "text_variables": {}

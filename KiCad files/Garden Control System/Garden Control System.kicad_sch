@@ -123,7 +123,7 @@
 		)
 		(uuid "0c045749-9d89-427d-a0c9-32d544cfa37f")
 	)
-	(text_box "-choose temp sensor type\n-add temp sensor to schematic\n\n-research ESD protection types (ESD cap vs TVS diode)\n-add ESD protection to connectors\n\n-research how to add more memory\n\n-research a display to add\n-add display to schematic\n\n"
+	(text_box "-add temp sensor circuit to schematic\n-add details on encoder operation and connect to micro \n-add pH sensing circuit and info\n-finish eth page\n-\n\n-research ESD protection types (ESD cap vs TVS diode)\n-add ESD protection to connectors\n\n-research a display to add\n-add display to schematic\n\n"
 		(exclude_from_sim no)
 		(at 17.78 -218.44 0)
 		(size 256.54 172.72)
@@ -520,7 +520,7 @@
 		(instances
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -558,7 +558,7 @@
 		(instances
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
-					(page "4")
+					(page "10")
 				)
 			)
 		)
@@ -596,7 +596,7 @@
 		(instances
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
@@ -640,6 +640,44 @@
 		)
 	)
 	(sheet
+		(at 746.76 444.5)
+		(size 327.66 180.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5caeae25-7156-452b-92ee-6c78120a7cbf")
+		(property "Sheetname" "Current Sense"
+			(at 746.76 443.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 746.76 625.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 330.2 -3.81)
 		(size 391.16 201.93)
 		(fields_autoplaced yes)
@@ -678,6 +716,44 @@
 		)
 	)
 	(sheet
+		(at 7.62 642.62)
+		(size 317.5 165.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8016488c-f01c-448d-8279-26816f175961")
+		(property "Sheetname" "pH Sensor"
+			(at 7.62 641.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pH Sensor.kicad_sch"
+			(at 7.62 808.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Garden Control System"
+				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 746.76 224.79)
 		(size 325.12 198.12)
 		(fields_autoplaced yes)
@@ -689,7 +765,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9f2dbd4f-9250-47a2-9054-c36b37ba7178")
-		(property "Sheetname" "LSD and Current Sense"
+		(property "Sheetname" "Motor Drivers"
 			(at 746.76 224.0784 0)
 			(effects
 				(font
@@ -698,7 +774,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensors and HSDs.kicad_sch"
+		(property "Sheetfile" "Motor Drivers.kicad_sch"
 			(at 746.76 423.4946 0)
 			(effects
 				(font
@@ -748,7 +824,7 @@
 		(instances
 			(project "Garden Control System"
 				(path "/be495e14-3da3-4129-8396-1871cb6cba29"
-					(page "8")
+					(page "6")
 				)
 			)
 		)

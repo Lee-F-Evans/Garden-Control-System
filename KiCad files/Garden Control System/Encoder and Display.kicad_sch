@@ -1283,15 +1283,77 @@
 		)
 		(uuid "fd23cbc9-453b-40c3-b522-49479359d956")
 	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 101.6 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87e855cc-9054-4dc8-88d5-aa2fe259a3ee)
+	)
+	(rectangle
+		(start 106.68 15.24)
+		(end 279.4 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eadd15e8-f840-4278-a57e-c260b1058ca2)
+	)
+	(text "Encoder and Button"
+		(exclude_from_sim no)
+		(at 54.356 22.86 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "42a425d6-cf36-4a29-9a7e-1520ca2d916d")
+	)
 	(text "Encoder with switch:\nPEC11R-4115F-S0018\nButton is active high"
 		(exclude_from_sim no)
-		(at 51.054 18.288 0)
+		(at 28.956 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "47286fc5-5400-4f13-8abf-468aec6658ad")
+	)
+	(text "LCD? TFT? "
+		(exclude_from_sim no)
+		(at 191.008 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "66bdffd8-a606-46d3-a8de-cad83e53fbae")
+	)
+	(text "Display"
+		(exclude_from_sim no)
+		(at 194.564 21.59 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d2729582-ace1-4d12-aaf7-3854f994c48a")
 	)
 	(text "Debounce Cap"
 		(exclude_from_sim no)

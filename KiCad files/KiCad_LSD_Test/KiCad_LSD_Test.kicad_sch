@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "89caf316-b6d5-4dc1-8892-5034c90ee688")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 17.78 17.78)
+		(size 71.12 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0714482f-6271-44f8-bc31-814cbd067778")
+		(property "Sheetname" "LSD"
+			(at 17.78 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LSD.kicad_sch"
+			(at 17.78 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad_LSD_Test"
+				(path "/89caf316-b6d5-4dc1-8892-5034c90ee688"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 17.78)
+		(size 63.5 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37efd5c6-bb6a-4cd3-9f51-4d4bbe218c35")
+		(property "Sheetname" "Power and Connections"
+			(at 109.22 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power and Connections.kicad_sch"
+			(at 109.22 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad_LSD_Test"
+				(path "/89caf316-b6d5-4dc1-8892-5034c90ee688"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
